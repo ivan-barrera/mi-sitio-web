@@ -1,4 +1,5 @@
-# ── Perfil INGLÉS (navbar completo) ──
+# ── Perfil en INGLÉS ──
+# Solo sobreescribe lo que cambia respecto a _quarto.yml
 project:
   render:
     - en/index.qmd
@@ -16,7 +17,7 @@ website:
       - icon: translate
         menu:
           - text: "Español"
-            href: index.qmd
+            href: index.html
           - text: "English"
             href: en/index.qmd
 

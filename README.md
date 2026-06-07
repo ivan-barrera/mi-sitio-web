@@ -8,9 +8,8 @@ idioma se elige con un ícono desplegable en la esquina superior derecha.
 
 ```
 .
-├── _quarto.yml          # Config. base (solo tipo de proyecto y formato)
-├── _quarto-es.yml       # Perfil ESPAÑOL (navbar completo en español)
-├── _quarto-en.yml       # Perfil INGLÉS (navbar completo en inglés)
+├── _quarto.yml          # Config. base = ESPAÑOL (navbar, idioma, formato)
+├── _quarto-en.yml       # Perfil INGLÉS (solo lo que cambia)
 ├── index.qmd            # Inicio (español)
 ├── profesional.qmd      # Información profesional (español)
 ├── styles.css           # Estilos personalizados
@@ -24,16 +23,12 @@ idioma se elige con un ícono desplegable en la esquina superior derecha.
 
 Quarto usa **una sola barra de navegación por compilación**. Para que las
 pestañas estén traducidas en cada idioma, cada idioma se compila con su propio
-"perfil": `_quarto-es.yml` para español y `_quarto-en.yml` para inglés. Cada
-perfil define su **navbar completo** (pestañas + menú de idioma). El archivo
-base `_quarto.yml` solo guarda el tipo de proyecto y el formato, sin nada de
-`website`/`navbar`: si se reparte el navbar entre el base y los perfiles, Quarto
-mezcla mal las listas (duplica o pierde pestañas).
+"perfil": el español con la config. base y el inglés con `_quarto-en.yml`.
 
 ## Ver el sitio mientras lo editas
 
 ```bash
-quarto preview --profile es    # versión en español
+quarto preview                 # versión en español
 quarto preview --profile en    # versión en inglés
 ```
 
@@ -43,7 +38,7 @@ quarto preview --profile en    # versión en inglés
 ## Compilar el sitio completo (ambos idiomas)
 
 ```bash
-quarto render --profile es     # español
+quarto render                  # español
 quarto render --profile en     # inglés
 ```
 
@@ -73,6 +68,6 @@ quarto publish gh-pages --no-render
 
 1. Crea el archivo en español, p. ej. `proyectos.qmd`, y su equivalente en
    inglés en `en/projects.qmd`.
-2. Agrégalos a la lista `navbar > left` en **ambos** perfiles:
-   en `_quarto-es.yml` (español) y en `_quarto-en.yml` (inglés).
+2. Agrégalos a la lista `navbar > left` en **ambos** archivos de configuración:
+   en `_quarto.yml` (español) y en `_quarto-en.yml` (inglés).
 3. Añádelos también a `project > render` en su archivo correspondiente.
