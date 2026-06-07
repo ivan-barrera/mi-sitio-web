@@ -1,0 +1,22 @@
+---
+title: "Inicio"
+lang: es
+---
+
+## Bienvenido / Bienvenida
+
+Esta es la página principal de tu sitio. Aquí puedes poner tus **datos
+generales**: una breve presentación, a qué te dedicas y cómo contactarte.
+
+### Sobre mí
+
+Escribe aquí un párrafo corto sobre ti. Por ejemplo: tu nombre, tu profesión
+o área de estudio, y los temas que te interesan.
+
+### Contacto
+
+- **Correo:** tucorreo@ejemplo.com
+- **Ciudad:** Ciudad de México, México
+- **GitHub:** [tu-usuario](https://github.com/tu-usuario)
+
+> Para cambiar al inglés, usa el botón **English** en la parte superior derecha.
