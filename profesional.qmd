@@ -1,0 +1,26 @@
+---
+title: "Información profesional"
+lang: es
+---
+
+En esta página puedes detallar tu información profesional. Abajo tienes
+algunas secciones de ejemplo que puedes editar, quitar o ampliar.
+
+## Experiencia
+
+- **Puesto — Empresa / Institución** *(año – año)*
+  Describe brevemente tus responsabilidades y logros.
+
+## Formación académica
+
+- **Título / Grado — Universidad** *(año)*
+
+## Habilidades
+
+- Habilidad 1
+- Habilidad 2
+- Habilidad 3
+
+## Publicaciones o proyectos
+
+- Nombre del proyecto o publicación, con un enlace si aplica.

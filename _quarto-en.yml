@@ -1,0 +1,23 @@
+# ── Perfil INGLÉS (navbar completo) ──
+project:
+  render:
+    - en/index.qmd
+    - en/professional.qmd
+
+website:
+  title: "Your Name"
+  navbar:
+    left:
+      - text: "Home"
+        href: en/index.qmd
+      - text: "Professional information"
+        href: en/professional.qmd
+    right:
+      - icon: translate
+        menu:
+          - text: "Español"
+            href: index.qmd
+          - text: "English"
+            href: en/index.qmd
+
+lang: en

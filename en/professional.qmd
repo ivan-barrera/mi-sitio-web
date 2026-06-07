@@ -1,0 +1,26 @@
+---
+title: "Professional information"
+lang: en
+---
+
+On this page you can detail your professional information. Below are some
+example sections that you can edit, remove, or expand.
+
+## Experience
+
+- **Position — Company / Institution** *(year – year)*
+  Briefly describe your responsibilities and achievements.
+
+## Education
+
+- **Degree — University** *(year)*
+
+## Skills
+
+- Skill 1
+- Skill 2
+- Skill 3
+
+## Publications or projects
+
+- Name of the project or publication, with a link if applicable.

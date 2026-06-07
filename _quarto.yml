@@ -1,0 +1,14 @@
+# ── Configuración BASE (solo lo común a ambos idiomas) ──
+# Importante: aquí NO va nada de 'website' ni 'navbar'. Cada idioma define su
+# navbar COMPLETO en su propio perfil (_quarto-es.yml / _quarto-en.yml), porque
+# si se reparte el navbar entre el base y el perfil, Quarto mezcla mal las listas.
+project:
+  type: website
+  output-dir: _site
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full

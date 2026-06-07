@@ -1,0 +1,22 @@
+---
+title: "Home"
+lang: en
+---
+
+## Welcome
+
+This is the main page of your site. Here you can put your **general
+information**: a short introduction, what you do, and how to reach you.
+
+### About me
+
+Write a short paragraph about yourself here. For example: your name, your
+profession or field of study, and the topics you are interested in.
+
+### Contact
+
+- **Email:** youremail@example.com
+- **City:** Mexico City, Mexico
+- **GitHub:** [your-username](https://github.com/your-username)
+
+> To switch to Spanish, use the **Español** button in the top right corner.
