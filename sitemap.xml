@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ivan-barrera.github.io/mi-sitio-web/en/index.html</loc>
-    <lastmod>2026-06-06T18:53:09.439Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ivan-barrera.github.io/mi-sitio-web/es/index.html</loc>
-    <lastmod>2026-06-06T18:53:09.439Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ivan-barrera.github.io/mi-sitio-web/about.html</loc>
-    <lastmod>2026-06-06T18:53:09.439Z</lastmod>
+    <loc>https://ivan-barrera.github.io/mi-sitio-web/en/professional.html</loc>
+    <lastmod>2026-06-06T19:16:20.000Z</lastmod>
   </url>
   <url>
     <loc>https://ivan-barrera.github.io/mi-sitio-web/index.html</loc>
-    <lastmod>2026-06-06T18:59:40.761Z</lastmod>
+    <lastmod>2026-06-06T19:16:07.000Z</lastmod>
   </url>
   <url>
-    <loc>https://ivan-barrera.github.io/mi-sitio-web/es/profesional.html</loc>
-    <lastmod>2026-06-06T18:53:09.439Z</lastmod>
+    <loc>https://ivan-barrera.github.io/mi-sitio-web/profesional.html</loc>
+    <lastmod>2026-06-06T19:16:12.000Z</lastmod>
   </url>
   <url>
-    <loc>https://ivan-barrera.github.io/mi-sitio-web/en/profesional.html</loc>
-    <lastmod>2026-06-06T18:53:09.439Z</lastmod>
+    <loc>https://ivan-barrera.github.io/mi-sitio-web/en/index.html</loc>
+    <lastmod>2026-06-06T19:16:16.000Z</lastmod>
   </url>
 </urlset>
