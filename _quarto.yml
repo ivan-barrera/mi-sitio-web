@@ -1,35 +1,31 @@
+# ── Configuración base = versión en ESPAÑOL (perfil por defecto) ──
 project:
   type: website
   output-dir: _site
+  # Este perfil solo renderiza las páginas en español (raíz).
+  render:
+    - index.qmd
+    - profesional.qmd
 
 website:
   title: "Tu Nombre"
   navbar:
-    pinned: true
-    right:
-      - text: "Español"
+    # Pestañas (páginas) en la barra de navegación
+    left:
+      - text: "Inicio"
         href: index.qmd
-      - text: "English"
-        href: en/index.qmd
-  # Un sidebar por idioma. Quarto muestra automáticamente el que
-  # corresponde según la página que se esté viendo.
-  sidebar:
-    - id: es
-      title: "Tu Nombre"
-      style: "docked"
-      contents:
-        - text: "Inicio"
-          href: index.qmd
-        - text: "Información profesional"
-          href: profesional.qmd
-    - id: en
-      title: "Your Name"
-      style: "docked"
-      contents:
-        - text: "Home"
-          href: en/index.qmd
-        - text: "Professional information"
-          href: en/professional.qmd
+      - text: "Información profesional"
+        href: profesional.qmd
+    # Ícono con menú desplegable para elegir idioma
+    right:
+      - icon: translate
+        menu:
+          - text: "Español"
+            href: index.qmd
+          - text: "English"
+            href: en/index.html
+
+lang: es
 
 format:
   html:
