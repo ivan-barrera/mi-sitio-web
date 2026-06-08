@@ -1,10 +1,35 @@
-# ── Configuración BASE (solo lo común a ambos idiomas) ──
-# Importante: aquí NO va nada de 'website' ni 'navbar'. Cada idioma define su
-# navbar COMPLETO en su propio perfil (_quarto-es.yml / _quarto-en.yml), porque
-# si se reparte el navbar entre el base y el perfil, Quarto mezcla mal las listas.
 project:
   type: website
   output-dir: _site
+
+website:
+  title: "Tu Nombre"
+  navbar:
+    pinned: true
+    right:
+      - text: "Español"
+        href: index.qmd
+      - text: "English"
+        href: en/index.qmd
+  # Un sidebar por idioma. Quarto muestra automáticamente el que
+  # corresponde según la página que se esté viendo.
+  sidebar:
+    - id: es
+      title: "Tu Nombre"
+      style: "docked"
+      contents:
+        - text: "Inicio"
+          href: index.qmd
+        - text: "Información profesional"
+          href: profesional.qmd
+    - id: en
+      title: "Your Name"
+      style: "docked"
+      contents:
+        - text: "Home"
+          href: en/index.qmd
+        - text: "Professional information"
+          href: en/professional.qmd
 
 format:
   html:
