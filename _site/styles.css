@@ -1,0 +1,12 @@
+/* Estilos personalizados para tu sitio.
+   Edita libremente. Quarto carga este archivo en todas las páginas. */
+
+/* Ancho de lectura más cómodo para el contenido principal */
+main {
+  max-width: 900px;
+}
+
+/* Pequeño espacio extra bajo los títulos de sección */
+h2, h3 {
+  margin-top: 1.5rem;
+}
